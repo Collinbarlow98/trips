@@ -1,0 +1,39 @@
+body {
+  display: flex;
+  flex-direction: column;
+  background: black;
+  color: white;
+  margin: 0;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.tile {
+  background-image: url(https://s3.envato.com/files/cb7a17aa-dbd2-49f2-927e-67c68dc92e80/inline_image_preview.jpg);
+  background-position: center;
+  background-size: auto;
+  height: 175;
+  text-align: center;
+}
+
+#addTrip {
+  display: flex;
+  flex-direction: column;
+  width: 200;
+}
+
+#addButton {
+  background-color: white;
+  margin: 10 0;
+}
+@media (max-width: 480px) {
+  .tileButton {
+    background-color: white;
+    color: black;
+  }
+  h3 {
+    font-size: small;
+  }
+}
